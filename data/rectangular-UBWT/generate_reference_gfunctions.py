@@ -31,11 +31,12 @@ def main():
     lntts = np.log(time/ts)
 
     # g-Function calculation options
-    nSegments = 12      # Number of segments per borehole
+    nSegments = 64      # Number of segments per borehole
     method = 'similarities'
-    options = {'nSegments': 12, 'disp': True}
+    options = {'nSegments': nSegments,
+               'disp': True}
     N_min = 1
-    N_max = 2
+    N_max = 10
 
     # -------------------------------------------------------------------------
     # Configure results file
