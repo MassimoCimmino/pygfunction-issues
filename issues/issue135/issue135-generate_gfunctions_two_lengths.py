@@ -60,7 +60,7 @@ def main():
     filename = '{}_{}_segments_two_lengths.json'.format(method, nSegments)
     data_equal = {}
     data_equal['label'] = 'PR-136'
-    data_equal['commit'] = 'd37872c'
+    data_equal['commit'] = '32394b6'
     data_equal['author'] = 'MassimoCimmino'
 
     tic = tim.time()
@@ -91,7 +91,7 @@ def main():
     filename = '{}_{}_segments_two_lengths.json'.format(method, nSegments)
     data_unequal = {}
     data_unequal['label'] = 'PR-136 (unequal segments)'
-    data_unequal['commit'] = 'd37872c'
+    data_unequal['commit'] = '32394b6'
     data_unequal['author'] = 'MassimoCimmino'
 
     tic = tim.time()

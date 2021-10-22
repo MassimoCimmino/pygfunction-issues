@@ -48,7 +48,7 @@ def main():
     filename = '{}_{}_segments.json'.format(method, nSegments)
     data = {}
     data['label'] = 'PR-136 (unequal segments)'
-    data['commit'] = 'd37872c'
+    data['commit'] = '32394b6'
     data['author'] = 'MassimoCimmino'
 
     # -------------------------------------------------------------------------

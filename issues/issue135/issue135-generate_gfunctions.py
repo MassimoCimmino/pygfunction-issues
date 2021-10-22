@@ -33,7 +33,7 @@ def main():
     # g-Function calculation options
     nSegments = 12      # Number of segments per borehole
     method = 'similarities'
-    options = {'nSegments': 12, 'disp': True}
+    options = {'nSegments': nSegments, 'disp': True}
     N_min = 1
     N_max = 20
 
@@ -43,7 +43,7 @@ def main():
     filename = '{}_{}_segments.json'.format(method, nSegments)
     data = {}
     data['label'] = 'PR-136'
-    data['commit'] = 'd37872c'
+    data['commit'] = '32394b6'
     data['author'] = 'MassimoCimmino'
 
     # -------------------------------------------------------------------------
